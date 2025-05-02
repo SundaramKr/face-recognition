@@ -45,7 +45,7 @@ def capture_image_from_webcam(encodings_path):
     fps_counter = 0
     fps = 0
     frame_count = 0
-    skip_frames = 10  # Process 1 frame every N frames for performance
+    skip_frames = 9  # Process 1 frame every N frames for performance
 
     # Store previous results for frames we skip processing
     previous_results = []
